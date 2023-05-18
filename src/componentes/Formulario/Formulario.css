@@ -1,11 +1,14 @@
 .formulario{
     display: flex;
-    justify-content: center;
-    margin: 80px 0;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+    flex-wrap: wrap;
+    gap:20px;
 }
 
 .formulario form{
-    max-width: 80%;
+    flex: 1;/* es una propiedad para los flex-items . Usarlo cuando tenemos espacio sobrante en 
+    un flex-container y se desea repartir ese espacio de manera igualitaria entre todos los flex-items .*/
     background-color: #F7F7F7;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
     border-radius: 20px;
